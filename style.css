@@ -1,18 +1,37 @@
-div {
-    display: flex;
+* {
+  margin: 0;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #f6efe8;
+}
+.topNav {
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  width: 100%;
+}
+.burguer {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
 
-@media (min-width: 1085){
+.burguer > img {
+  max-width: 30px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.topNav > img {
+  max-width: 100px;
+}
+@media (min-width: 1085) {
+}
 
-} 
+@media (min-width: 1025) {
+}
 
-@media (min-width: 1025){
-    
-} 
-
-
-@media (min-width: 765){
-    
-} 
-
+@media (min-width: 765) {
+}
