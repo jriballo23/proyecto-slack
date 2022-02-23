@@ -21,11 +21,6 @@
   width: 100%;
 }
 
-.conectProb {
-  display: none;
-
-}
-
 .navGrand {
   display: none;
 }
@@ -43,17 +38,30 @@
   color: black;
 }
 
-.conect {
-  text-decoration: none;
-  color: black;
-}
-
 .linksNav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 
+}
+.conectProb {
+  display: none;
 
+}
+
+.conect {
+  text-decoration: none;
+  color: black;
+}
+
+.botonFirst {
+  background-color: #611f69;
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+  padding: 20px 60px 20px 60px;
+  margin: 5px;
+  max-width: 200px;
 }
 
 .burguer {
@@ -257,6 +265,56 @@
   margin-bottom: 20px;
 }
 
+/* ------------------ Raul 2º  ↓ ----------------- */
+
+.welcomeToW {
+  background-color: #400d40;
+  clip-path: ellipse(75% 100% at center top);
+}
+
+.futuro {
+  font-size: 34px;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 4%;
+  color: white;
+}
+
+.botonL {
+  max-width: 90%;
+  justify-content: center;
+  margin: auto;
+}
+
+.botonesMorado{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+/*   margin: auto; */
+  justify-content: center;
+  padding-bottom: 8%;
+}
+
+.pruebaG {
+  background-color: white;
+  color: #400d40;
+  border: 2px;
+  border: white;
+  border-radius: 5px;
+  padding: 22px 50px 22px 50px;
+  margin: 5px;
+}
+
+.ventas {
+  background-color: #400d40;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 20px 24px 20px 24px;
+  margin: 5px;
+}
+
 /* ------------------ Ruben  ↓ ----------------- */
 
 .footer-logo {
@@ -301,17 +359,52 @@
   .sponsors {
     max-width: 100%;
   }
+  .botonL {
+    max-width: 40%;
+    margin: 0;
+    justify-content: center;
+  }
+  .botonesMorado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 8%;
+  }
+
 }
 
+@media (min-width: 1025) {
+}
+
+
 @media (min-width: 1085px) {
-  .navGrand {
-    display: block;
+  .navBar{
+    max-width: 20%;
   }
+  .navGrand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+ 
+  }
+  .linksNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .burguer {
     display: none;
   }
   .conectProb {
-    display: flex;
-    flex-direction: row;
+    display: none; /* No consigo que funcione */
+    max-width: 80%;
+    align-items: center;
+ /*    padding-left: 116%; */
+    justify-content: space-evenly;
   }
 }
