@@ -316,21 +316,34 @@
 
 /* ------------------ Ruben  ↓ ----------------- */
 
-.main-footer {
+.main-fcontainer {
   display: flex;
   flex-direction: column;
+  padding-left: 15px;
 }
-.footer-logo {
+.f-logo {
   max-width: 20%;
+  margin-bottom: 20px;
 }
-.footer-logo > img {
+.f-logo > img {
   max-width: 75px;
 }
 
-.footer-text {
+.f-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-top {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  max-width: 100%;
+  justify-content: left;
+}
+
+.list-bottom {
+  display: flex;
+  flex-direction: row;
 }
 
 .negrita{
