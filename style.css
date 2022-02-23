@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
 
 * {
   margin: 0;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
-
 .main-header {
-    background-color: #f6efe8;
+  background-color: #f6efe8;
 }
-
 .navbar {
   display: flex;
   flex-direction: row;
-
+  background-color: #f6efe8;
 }
 .topNav {
   display: flex;
@@ -31,75 +29,98 @@
   padding: 5px;
   margin-right: 10px;
 }
-
-.footer-head {
-    
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
+.topNav > img {
+  max-width: 100px;
 }
-
+.footer-head {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .slackFirst {
   font-size: 300%;
 }
 
 .sedeDig {
-    max-width: 95%;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-    padding: 10px;
+  max-width: 95%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
 }
 
 .imgTeam {
-    margin: auto;
-    max-width: 95%;
-    padding: 10px;
-
+  margin: auto;
+  max-width: 95%;
+  padding: 10px;
 }
 
-.imgTeam >img{
-    max-width: 80%;
+.imgTeam > img {
+  max-width: 80%;
 }
 
 .botonAndr {
-    background-color: #611f69;
-    color: white;
- /*    font-size: 100%; */
-    border-radius: 5px;
-    border-width: 0;
-    padding: 20px 24px 20px 24px;
-    margin: 5px;
-    max-width: 90%;
+  background-color: #611f69;
+  color: white;
+  /*    font-size: 100%; */
+  border-radius: 5px;
+  border-width: 0;
+  padding: 20px 24px 20px 24px;
+  margin: 5px;
+  max-width: 90%;
 }
 
 .topNav > img {
   max-width: 100px;
 }
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.footer-logo {
+  max-width: 20%;
+}
+.footer-logo > img {
+  max-width: 75px;
+}
 
+.footer-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.one > li,
+.two > li,
+.three > li,
+.four > li,
+.five > li {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+}
 
 @media (min-width: 765px) {
-    .footer-head {
-        margin: 20px;
-        flex-direction: row;
-        justify-content: space-around;
-      
-    
-    }
-    .sedeDig {
-        max-width: 45%;
-    }
-    .imgTeam {
-        max-width: 45%;
-    }
-}
-
-@media (min-width: 1025px) {
-}
-
-
-
-@media (min-width: 1085px) {
+  .footer-head {
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .sedeDig {
+    max-width: 45%;
+  }
+  .imgTeam {
+    max-width: 45%;
+  }
 }
