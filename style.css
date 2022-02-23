@@ -275,8 +275,7 @@
 .futuro {
   font-size: 34px;
   text-align: center;
-  padding-top: 10%;
-  padding-bottom: 4%;
+  padding: 10% 0 4% 15px;
   color: white;
 }
 
@@ -317,6 +316,10 @@
 
 /* ------------------ Ruben  ↓ ----------------- */
 
+.main-footer {
+  display: flex;
+  flex-direction: column;
+}
 .footer-logo {
   max-width: 20%;
 }
@@ -329,6 +332,10 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
+.negrita{
+  font-weight: bold;
+}
 .one > li,
 .two > li,
 .three > li,
@@ -337,6 +344,7 @@
   list-style: none;
   margin-top: 10px;
   margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .footer-bottom {
