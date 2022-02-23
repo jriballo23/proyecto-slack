@@ -23,18 +23,21 @@
     padding: 20px;
 }
 
-.burger {
-    max-width: 40px;
 
-}
-.burger > img {
-    max-width: 36px;
-
-}
 
 .navBar{
     width: 100%;
     display: flex;
+
+}
+
+.burger {
+    max-width: 40px;
+    justify-content: end;
+
+}
+.burger > img {
+    max-width: 36px;
 
 }
 
