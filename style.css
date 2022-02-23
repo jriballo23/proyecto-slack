@@ -8,7 +8,7 @@
   background-color: #f6efe8;
   padding: 0 15px 0 15px;
 }
-.navbar {
+.navBar {
   display: flex;
   flex-direction: row;
   background-color: #f6efe8;
@@ -17,8 +17,45 @@
   display: flex;
   justify-content: start;
   padding: 10px;
+  max-height: 28px;
   width: 100%;
 }
+
+.conectProb {
+  display: none;
+
+}
+
+.navGrand {
+  display: none;
+}
+
+.linksNav > div {
+  padding: 0 10% 0 10%;
+}
+
+.linksNav > :nth-child(2) {
+  padding: 0 20% 0 20%;
+} 
+
+.linksNav > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.conect {
+  text-decoration: none;
+  color: black;
+}
+
+.linksNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+
+}
+
 .burguer {
   display: flex;
   justify-content: end;
@@ -113,7 +150,6 @@
 .main-main {
   display: flex;
   flex-direction: column;
-  padding: 0 15px 0 15px;
 }
 
 .title-main {
@@ -131,12 +167,6 @@
   flex-direction: column;
 }
 
-.text-video {
-  display: flex;
-  flex-direction: row;
-
-}
-
 .mid-main {
   padding: 0 15px 0 15px;
   margin: 15px 0 15px 0;
@@ -144,8 +174,7 @@
 }
 
 .link-video{
-  height: 281px;
-  width: 480px;
+  max-width: 440px;
   padding: 0 15px 0 15px;
 }
 
@@ -154,13 +183,31 @@
   max-height: 100%;
 }
 
-.time-video{
+.video-main{
   display: flex;
-  align-content: end;
+  flex-direction: column;
+  max-width: 100%;
+  /* flex-wrap: wrap; */
 }
 
+.text-video {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
 
-/* Ruben  ↓*/
+}
+
+.description-video {
+  display: flex;
+  justify-content: start;
+  /* padding: 0 15px 0 15px; */
+}
+.time-video{
+  display: flex;
+  justify-content: end;
+}
+
+/* ------------------ Ruben  ↓ ----------------- */
 .footer-logo {
   max-width: 20%;
 }
@@ -202,5 +249,18 @@
   }
   .sponsors {
     max-width: 100%;
+  }
+}
+
+@media (min-width: 1085px) {
+  .navGrand {
+    display: block;
+  }
+  .burguer {
+    display: none;
+  }
+  .conectProb {
+    display: flex;
+    flex-direction: row;
   }
 }
